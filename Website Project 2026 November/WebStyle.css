@@ -1,0 +1,790 @@
+/*Custom Cursor*/
+*{
+    cursor: url("Images/Cursor.png"), crosshair;
+}
+
+button:hover{
+    cursor: url("Images/Explosion.png"), crosshair;
+}
+
+
+/*This or these code here applies to all*/
+
+h3{
+    -webkit-text-stroke: 0.8px black;
+    color: goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+}
+
+
+/* HomePage: */
+.HomeTitle{
+    text-align: center;
+    font-size: 60px;
+    color:goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 5px black;
+}
+
+.Intro{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: -1px;
+    margin-top: 10%;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 2px black;
+    color:goldenrod;
+}
+
+
+.Title-Background{
+    background-image: url("Images/CityGif.gif");
+    height: 200px;
+}
+
+.TitleBox{
+    background-color: rgb(128,128,128, 0.5);
+    padding-bottom: 25px;
+    border-style: Solid;
+    border-width: 15px;
+    border-color: goldenrod;
+}
+
+.Homepage{
+    background-color: darkcyan;
+    
+}
+
+.UNlogo{
+    width: 250px;
+    height:200px;
+    margin-left: 825px;
+}
+
+
+.carousel {
+  width: 800px;
+  margin-left: 560px;
+  margin-top: 150px;
+  height: 419px;
+border-style:solid;
+border-color: goldenrod;
+border-width: 10px;
+}
+
+.carousel input {
+  display: none;
+}
+
+.slide {
+  display: none;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+.left, .right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: black;
+  color: white;
+  padding: 10px;
+  z-index: 1;
+}
+
+.left, .right:hover {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: black;
+  color: white;
+  cursor: url("Images/Explosion.png"), crosshair;
+  padding: 10px;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+#s1:checked ~ .slide1,
+#s2:checked ~ .slide2,
+#s3:checked ~ .slide3 {
+  display: block;
+}
+
+
+/* Economics Page:*/
+
+.EconomicsPage{
+    background-color: darkcyan;
+}
+
+
+.Title-Background-Two{
+    background-image: url("Images/Stock-Gif.gif");
+    height: 200px;
+}
+
+.Economics-Title{
+    text-align: center;
+    font-size: 60px;
+    color:goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 5px black;
+    letter-spacing: 4px;
+}
+
+.Economics-Title-Box{
+    background-color: rgb(128,128,128, 0.5);
+    padding-bottom: 25px;
+    border-style: Solid;
+    border-color: goldenrod;
+    border-width: 15px;
+}
+
+.Currencies{
+    width: 100%;
+    overflow: hidden;
+}
+
+.Scroll{
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+    animation: scroll 5s linear infinite;
+}
+
+.Scroll img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-40%);
+    }
+    
+}
+
+.USD{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px ;
+}
+
+.Yen{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px ;
+}
+.Won{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px ;
+}
+.Pound{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px ;
+}
+.Euro{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px ;
+}
+.Peso{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px ;
+}
+
+.Yuan{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px ;
+}
+
+.IntroEconmics{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.GDP{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.GDPC{
+    margin-right: 300px;
+    margin-top: 100px ;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.Messure{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.Description{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.GDP-Description{
+    margin-right: 70px;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.GDPC-Description{
+    margin-left: 80px;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.Summery{
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.How-To-Raise-GDP{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 70px;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.How-To-Raise-GDPC{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 70px;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+.Top-Ten{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas:
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country"
+    "Country GDP-Of-Country";
+border-style:solid;
+border-color: goldenrod;
+grid-template-rows: 1fr 1fr;
+margin-left: 100px;
+margin-right: 70px;
+}
+
+.Country{
+    border-style:solid;
+    border-color: goldenrod;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 0.8px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.GDP-Of-Country{
+    border-style:solid;
+    border-color: goldenrod;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 0.8px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+}
+
+.Disclaimer{
+    border-color: goldenrod;
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.Warning{
+    font-family: "Notable", sans-serif;
+    -webkit-text-stroke: 0.8px black;
+    color:goldenrod;
+    letter-spacing: 4px;
+    margin-left: 100px;
+    margin-right: 70px;
+}
+
+.Economy-Pics{
+    width: 1700px;
+    height: 700px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 10px;
+}
+
+/*Politics and Diplomacy Page:*/
+
+.PoliticsTitle{
+    text-align: center;
+    font-size: 65px;
+    color:goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 5px black;
+    height: 190px;
+    border-style: solid;
+    border-width: 10px;
+}
+.Title-Background-Three{
+    background-image: url("Images/Obama-Making-Speech.gif");
+    height: 200px;
+}
+
+.PoliticsBox{
+    background-color: rgb(128,128,128, 0.5);
+}
+
+.Politics-Page{
+    background-color: darkcyan;
+}
+
+.Diplomacy-Info{
+    color:goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.Diplomacy-Leader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "Info files Files-Two";
+}
+
+.files{
+    color:goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 1px black;
+    margin-left: 250px;
+}
+
+.Files-Two{
+    display: flex;
+    flex-direction: row;
+}
+.Files-Three{
+    display: flex;
+    flex-direction: row;
+}
+.Files-Four{
+    display: flex;
+    flex-direction: row;
+}
+.Files-Five{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.Header{
+    text-align: center;
+    color:goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 1px black;
+}
+
+
+.Info{
+    color:goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 1px black;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+
+.Diplomacy-How-To{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 70px;
+    -webkit-text-stroke: 0.5px black;
+    color: goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+}
+
+.Worst-Diplomacy{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.Btn{
+    background-color: goldenrod;
+    color: black;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    -webkit-text-stroke: 0.2px black;
+    padding: 20px 20px;
+}
+
+.Btn:hover{
+    background-image: url("Images/Trump-Diplomacy.jpg");
+    padding: 200px 200px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 15px;
+    color: goldenrod;
+    font-weight: 300;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.World-Leaders{
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    color: goldenrod;
+    font-family: "Notable", sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+}
+.Mark:hover{
+    content: url("Images/MC.webp");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+
+.Zel:hover{
+    content: url("Images/VZ.webp");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+
+.Modi:hover{
+    content: url("Images/Modi.webp");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+
+
+.Putin:hover{
+    content: url("Images/Putin.webp");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+
+
+.Trump:hover{
+    content: url("Images/Trump.webp");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+.Xi:hover{
+    content: url("Images/Xi.webp");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+
+.Kim:hover{
+    content: url("Images/Kim.jpg");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+
+.Le:hover{
+    content: url("Images/LE.jpg");
+    height: 200px;
+    width: 150px;
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-style: solid;
+    filter: grayscale(90%);
+}
+
+
+.Ideolegy{
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    color: goldenrod;
+    font-family: "Notable", sans-serif;
+
+}
+
+.Ideolegy-Info{
+    -webkit-text-stroke: 1px black;
+    color: goldenrod;
+    font-family: "Notable", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "Ideolegy-PicA Ideolegy-TitleA"
+    "Ideolegy-StuffA Ideolegy-StuffA"
+    "Ideolegy-PicB Ideolegy-TitleB"
+    "Ideolegy-StuffB Ideolegy-StuffB"
+    "Ideolegy-PicC Ideolegy-TitleC"
+    "Ideolegy-StuffC Ideolegy-StuffC"
+    "Ideolegy-PicD Ideolegy-TitleD"
+    "Ideolegy-StuffD Ideolegy-StuffD"
+    "Ideolegy-StuffE Ideolegy-StuffE";
+    margin-left: 170px;
+    margin-right: 170px;
+    grid-template-columns: 150px;
+}
+
+
+.Ideolegy-Info h3.Ideolegy-StuffA{
+    display: grid;
+    grid-area:Ideolegy-StuffA;
+}
+
+.Ideolegy-Info h1.Ideolegy-TitleA{
+    display: grid;
+    grid-area:Ideolegy-TitleA;
+}
+
+.Ideolegy-Info img.Ideolegy-PicA{
+    display: grid;
+    grid-area:Ideolegy-PicA;
+    width: 100px;
+    height:100px;
+}
+
+.Ideolegy-Info h3.Ideolegy-StuffB{
+    display: grid;
+    grid-area:Ideolegy-StuffB;
+}
+
+.Ideolegy-Info h1.Ideolegy-TitleB{
+    display: grid;
+    grid-area:Ideolegy-TitleB;
+}
+
+.Ideolegy-Info img.Ideolegy-PicB{
+    display: grid;
+    grid-area:Ideolegy-PicB;
+    width: 100px;
+    height:100px;
+}
+
+.Ideolegy-Info h3.Ideolegy-StuffC{
+    display: grid;
+    grid-area:Ideolegy-StuffC;
+}
+
+.Ideolegy-Info h1.Ideolegy-TitleC{
+    display: grid;
+    grid-area:Ideolegy-TitleC;
+}
+
+.Ideolegy-Info img.Ideolegy-PicC{
+    display: grid;
+    grid-area:Ideolegy-PicC;
+    width: 100px;
+    height:100px;
+}
+
+.Ideolegy-Info h3.Ideolegy-StuffD{
+    display: grid;
+    grid-area:Ideolegy-StuffD;
+}
+
+.Ideolegy-Info h1.Ideolegy-TitleD{
+    display: grid;
+    grid-area:Ideolegy-TitleD;
+}
+
+.Ideolegy-Info img.Ideolegy-PicD{
+    display: grid;
+    grid-area:Ideolegy-PicD;
+    width: 100px;
+    height:100px;
+}
+
+.Ideolegy-Info h3.Ideolegy-StuffE{
+    display: grid;
+    grid-area:Ideolegy-StuffE;
+}
+
+.Ideolegy-Title{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Ideolegy-Pic{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+}
+
+/*Military Page*/
+
+.Military-Page{
+    background-color: darkcyan;
+    -webkit-text-stroke: 1px black;
+    color: goldenrod;
+    font-family: "Notable", sans-serif;
+}
+
+
+.Title-Mil{
+    background-image: url("Images/Boom.gif");
+    height:200px;
+}
+
+
+
+.BoxMil{
+    background-color: rgb(128,128,128, 0.5);
+    padding-bottom: 25px;
+    border-style: Solid;
+    border-width: 15px;
+    border-color: goldenrod;
+}
+
+.TANKS{
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.Scroll-Tank{
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+    animation: scroll 5s linear infinite;
+}
+
+.Scroll-Tank img {
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-40%);
+    }
+    
+}
+
+
+.Tank{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Mil-Dis{
+    text-align: center;
+}
